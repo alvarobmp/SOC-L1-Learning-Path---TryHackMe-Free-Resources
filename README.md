@@ -101,25 +101,11 @@ The sequencing logic is:
 This path is designed with the **Peruvian cybersecurity landscape** in mind:
 
 - 📄 **Ley 30096 (Ley de Delitos Informáticos)** — Understanding this law gives you a local differentiator when documenting cases and writing incident reports. Reference it in your GitHub write-ups.
-- 🏦 **Banking sector focus** — BCP, Scotiabank, Interbank, and Kyndryl Peru are heavy Azure/M365 shops. Phases 2 and 5 directly target this environment.
+- 🏦 **Banking sector focus** — Phases 2 and 5 directly target this environment.
 - 🐧 **Red Hat / Linux background** — Phases 3 and 4 will move faster for you than for most candidates. Use this to produce better write-ups and position yourself as the Linux specialist on any blue team.
 
 ---
 
-## 📁 Recommended GitHub Structure
-
-```
-soc-analyst-path/
-├── README.md                  ← This file
-├── phase-1-foundations/
-├── phase-2-siem-triage/
-├── phase-3-incident-response/
-├── phase-4-malware-forensics/
-├── phase-5-cloud-m365/
-├── phase-6-advanced/
-└── case-studies/
-    └── SOC-Cases-Peru/        ← Write-ups with Ley 30096 context
-```
 
 > 💡 **Tip for LinkedIn:** When you complete each phase, post a brief write-up with the room name, what you practiced, and how it connects to your current work experience. Consistency over 6 phases is more powerful than one big post.
 
