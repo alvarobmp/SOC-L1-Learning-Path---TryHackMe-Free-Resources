@@ -95,15 +95,6 @@ La lógica de secuencia es:
 
 ---
 
-## 🇵🇪 Contexto: Mercado Peruano de Ciberseguridad
-
-Esta ruta está diseñada con el ecosistema peruano en mente:
-
-- 📄 **Ley 30096 (Ley de Delitos Informáticos)** — Entender esta ley te da un diferenciador local al documentar casos y redactar reportes de incidentes. Referenciarla en tus write-ups de GitHub te posiciona como alguien que entiende el marco legal, no solo técnico.
-- 🏦 **Foco en sector bancario** — Las Fases 2 y 5 apuntan directamente a ese stack.
-- 🐧 **Background Red Hat / Linux** — Las Fases 3 y 4 serán más rápidas para ti que para la mayoría de candidatos. Úsalas para producir mejores write-ups y posicionarte como el especialista Linux del blue team.
-
-
 ## 📊 Resumen de la Ruta
 
 | Fase | Enfoque | Rooms | Tiempo estimado |
