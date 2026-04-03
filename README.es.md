@@ -17,7 +17,6 @@ La lógica de secuencia es:
 5. **Entornos cloud y corporativos quinto** — Azure/M365, relevante para el sector bancario peruano.
 6. **Especialización avanzada al final** — para después de conseguir el rol.
 
-> ⚠️ **Nota:** Rooms como Cicada-3301, Windows Reversing, x64 Assembly, FAT32/MBR Analysis, macOS Forensics, Nessus, Security Awareness y los módulos de AI/ML Security fueron excluidos intencionalmente. No son irrelevantes — simplemente tienen bajo ROI en esta etapa del camino.
 
 ---
 
@@ -101,30 +100,9 @@ La lógica de secuencia es:
 Esta ruta está diseñada con el ecosistema peruano en mente:
 
 - 📄 **Ley 30096 (Ley de Delitos Informáticos)** — Entender esta ley te da un diferenciador local al documentar casos y redactar reportes de incidentes. Referenciarla en tus write-ups de GitHub te posiciona como alguien que entiende el marco legal, no solo técnico.
-- 🏦 **Foco en sector bancario** — BCP, Scotiabank, Interbank y Kyndryl Perú son entornos Azure/M365. Las Fases 2 y 5 apuntan directamente a ese stack.
+- 🏦 **Foco en sector bancario** — Las Fases 2 y 5 apuntan directamente a ese stack.
 - 🐧 **Background Red Hat / Linux** — Las Fases 3 y 4 serán más rápidas para ti que para la mayoría de candidatos. Úsalas para producir mejores write-ups y posicionarte como el especialista Linux del blue team.
 
----
-
-## 📁 Estructura de Repositorio Recomendada
-
-```
-soc-analyst-path/
-├── README.md                  ← Versión en inglés
-├── README.es.md               ← Esta versión
-├── fase-1-fundamentos/
-├── fase-2-siem-triage/
-├── fase-3-respuesta-incidentes/
-├── fase-4-malware-forense/
-├── fase-5-cloud-m365/
-├── fase-6-avanzado/
-└── casos-de-estudio/
-    └── SOC-Cases-Peru/        ← Write-ups con contexto Ley 30096
-```
-
-> 💡 **Tip para LinkedIn:** Al completar cada fase, publica un write-up breve con el nombre del room, qué practicaste, y cómo se conecta con tu experiencia actual. La consistencia en 6 fases es más poderosa que una sola publicación grande.
-
----
 
 ## 📊 Resumen de la Ruta
 
