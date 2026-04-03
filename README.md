@@ -1,7 +1,6 @@
 # 🛡️ SOC L1 Learning Path — TryHackMe Free Resources
 
 > A strategically prioritized curriculum for aspiring SOC Level 1 Analysts, built exclusively with **free TryHackMe rooms**.  
-> Designed with a Peruvian cybersecurity market focus (Ley 30096 context) and a Linux/Red Hat background.
 
 ---
 
