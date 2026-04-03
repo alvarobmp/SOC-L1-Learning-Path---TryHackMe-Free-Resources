@@ -93,16 +93,6 @@ The sequencing logic is:
 
 ---
 
-## 🇵🇪 Peruvian Market Context
-
-This path is designed with the **Peruvian cybersecurity landscape** in mind:
-
-- 📄 **Ley 30096 (Ley de Delitos Informáticos)** — Understanding this law gives you a local differentiator when documenting cases and writing incident reports. Reference it in your GitHub write-ups.
-- 🏦 **Banking sector focus** — Phases 2 and 5 directly target this environment.
-- 🐧 **Red Hat / Linux background** — Phases 3 and 4 will move faster for you than for most candidates. Use this to produce better write-ups and position yourself as the Linux specialist on any blue team.
-
----
-
 ## 📊 Path Summary
 
 | Phase | Focus | Rooms | Est. Time |
