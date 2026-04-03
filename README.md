@@ -17,8 +17,6 @@ The sequencing logic is:
 5. **Cloud & corporate environments fifth** — Azure/M365, relevant for banking sector in Peru.
 6. **Advanced specialization last** — for after landing the role.
 
-> ⚠️ **Note:** Rooms like Cicada-3301, Windows Reversing, x64 Assembly, FAT32/MBR Analysis, macOS Forensics, Nessus, Security Awareness, and AI/ML Security were intentionally excluded. They are not irrelevant — they are simply low ROI at this stage of the journey.
-
 ---
 
 ## 🟥 Phase 1 — Do First | SOC Conceptual Foundation
@@ -103,11 +101,6 @@ This path is designed with the **Peruvian cybersecurity landscape** in mind:
 - 📄 **Ley 30096 (Ley de Delitos Informáticos)** — Understanding this law gives you a local differentiator when documenting cases and writing incident reports. Reference it in your GitHub write-ups.
 - 🏦 **Banking sector focus** — Phases 2 and 5 directly target this environment.
 - 🐧 **Red Hat / Linux background** — Phases 3 and 4 will move faster for you than for most candidates. Use this to produce better write-ups and position yourself as the Linux specialist on any blue team.
-
----
-
-
-> 💡 **Tip for LinkedIn:** When you complete each phase, post a brief write-up with the room name, what you practiced, and how it connects to your current work experience. Consistency over 6 phases is more powerful than one big post.
 
 ---
 
