@@ -1,3 +1,293 @@
+
+
+# 🛡️ Roadmap Analista SOC — TryHackMe (Solo Rooms Gratuitos)
+
+> **Lista curada y ordenada por prioridad de rooms gratuitos de TryHackMe para quienes buscan su primer empleo como Analista SOC.**
+> Construida a partir de 4 listas de rooms gratuitos (tags: All, Purple, Red, Blue) y organizada según la progresión real de habilidades SOC.
+>
+> Este roadmap sirve para **dos tipos de personas** — elige tu ruta abajo.
+
+---
+
+## 🧭 Elige tu punto de partida
+
+### 🟢 Ruta A — "Soy nuevo en TI / No tengo background técnico"
+
+Nunca has trabajado en TI, estás estudiando por tu cuenta, o vienes de un campo completamente diferente. No hay problema — este roadmap te cubre. Solo necesitarás dedicar más tiempo a las fases fundacionales antes de entrar al contenido específico de SOC.
+
+**Tu camino:** Pre-Security (Learning Path THM) → Fase 0 → Fase 1 → Fase 2 → Fase 3 → ...
+
+**Antes de empezar este roadmap, completa estas rutas de aprendizaje gratuitas de TryHackMe:**
+- [Pre-Security](https://tryhackme.com/path/outline/presecurity) — Cómo funciona la web, redes básicas, fundamentos de Linux y Windows (100% gratuito, ~40 horas)
+- [Introduction to Cybersecurity](https://tryhackme.com/path/outline/introtocybersecurity) — Qué es la ciberseguridad, carreras, primeros labs prácticos (~24 horas)
+
+Una vez termines esas rutas, vuelve aquí y **empieza en la Fase 0** de este roadmap.
+
+**Tiempo total estimado:** 22–28 semanas de estudio enfocado (incluyendo el contenido pre-seguridad)
+
+---
+
+### 🔵 Ruta B — "Ya trabajo o he trabajado en TI"
+
+Has sido sysadmin, técnico de redes, helpdesk, desarrollador, o tienes cualquier experiencia práctica en TI. Ya entiendes redes, sistemas operativos y línea de comandos. No necesitas empezar desde cero.
+
+**Tu camino:** Omite o revisa rápido la Fase 0 y la Fase 2 → Empieza en la Fase 1 → Acelera hacia la Fase 3
+
+**Rooms que puedes omitir o repasar muy rápido:**
+- Conceptos de redes / modelo OSI
+- Fundamentos de Linux y Windows
+- DNS / HTTP en detalle
+- What is Networking?
+- Bash Scripting básico
+- Inside a Computer System / Operating Systems Introduction
+
+**Salta directamente a la Fase 3** (SIEM, análisis de logs, triage de alertas) después de un repaso rápido por la Fase 1. Ahí empieza el aprendizaje real específico de SOC.
+
+**Tiempo total estimado:** 10–17 semanas de estudio enfocado
+
+---
+
+## 📊 Resumen
+
+| Dato | Valor |
+|------|-------|
+| Rooms totales | 80+ |
+| Costo | 100% Gratuito |
+| Fases | 6 + Fase 0 |
+| Rol objetivo | Analista SOC L1 → L2 |
+| Tiempo estimado (Ruta A) | 22–28 semanas |
+| Tiempo estimado (Ruta B) | 10–17 semanas |
+
+---
+
+## 🗺️ El Roadmap
+
+---
+
+### ⬜ Fase 0 — Fundamentos absolutos *(Solo Ruta A)*
+*Para personas sin background en TI · haz esto antes que cualquier otra cosa*
+
+> **Usuarios Ruta B:** Puedes saltarte esta fase por completo. Si quieres repasar algún concepto específico, adelante — pero no pierdas tiempo aquí si ya lo dominas.
+
+| Room | Dificultad | Por qué importa |
+|------|-----------|-----------------|
+| Inside a Computer System | Fácil | Cómo funciona una computadora — CPU, RAM, almacenamiento |
+| Computer Types | Fácil | Servidores, desktops, sistemas embebidos |
+| Operating Systems: Introduction | Fácil | Qué hace un sistema operativo y por qué importa en seguridad |
+| What is Networking? | Info | Cómo se comunican las computadoras entre sí |
+| How Websites Work | Fácil | Qué pasa cuando abres un navegador |
+| Putting it all together | Fácil | Cómo funciona la web de extremo a extremo |
+| The CIA Triad | Fácil | Los 3 principios core de la ciberseguridad |
+| Security Awareness | Info | Actores de amenaza y por qué importa la seguridad |
+| Cryptography for Dummies | Fácil | Bases de cifrado — lo verás en todas partes en SOC |
+| Search Skills | Fácil | Cómo investigar efectivamente como profesional de seguridad |
+| Linux Fundamentals Part 1 | Info | Comandos Linux esenciales — los usarás todos los días |
+| Windows Fundamentals 1 y 2 | Info | Windows por dentro — la mayoría de entornos corporativos usan Windows |
+| Introductory Networking | Fácil | Herramientas de red: ping, traceroute, análisis básico |
+| Introductory Researching | Fácil | Habilidades de investigación para incidentes de seguridad |
+
+---
+
+### Fase 1 — Rol SOC y fundamentos de seguridad
+*Semana 1–2 (Ruta B) · Después de la Fase 0 (Ruta A) · Entiende el rol antes que las herramientas*
+
+| Room | Dificultad | Por qué importa |
+|------|-----------|-----------------|
+| SOC Fundamentals | Fácil | Estructura del equipo SOC, procesos — leer primero |
+| SOC Role in Blue Team | Fácil | Niveles L1/L2/L3, carrera y expectativas del rol |
+| Starting Out In Cyber Sec | Fácil | Rutas de carrera y crecimiento en ciberseguridad |
+| Security Principles | Fácil | CIA Triad, modelos de seguridad — base de toda decisión |
+| Vulnerabilities 101 | Fácil | CVEs, CVSS, bases de datos de vulnerabilidades |
+| IR Philosophy and Ethics | Fácil | Filosofía y ética de la respuesta a incidentes |
+| Training Impact on Teams | Info | Cómo encaja la formación en seguridad dentro de las organizaciones |
+
+---
+
+### Fase 2 — Redes, sistemas operativos y herramientas base
+*Semana 3–4 (Ruta B) · Cubierto en Fase 0 para Ruta A — solo refuerza lo que necesites*
+
+> **Usuarios Ruta A:** Ya cubriste la mayoría de esto en la Fase 0 y el Pre-Security. Enfócate en los rooms marcados con ★ que van más profundo que lo básico.
+>
+> **Usuarios Ruta B:** Repasa lo que ya sabes, dedica tiempo a lo nuevo. Los rooms con ★ vale hacerlos sin importar tu experiencia previa.
+
+| Room | Dificultad | Por qué importa |
+|------|-----------|-----------------|
+| Networking Concepts | Fácil | Modelo OSI/TCP-IP en detalle |
+| DNS in Detail | Fácil | DNS: vector de ataque y artefacto forense clave |
+| HTTP in Detail | Fácil | Protocolo HTTP — base para análisis de tráfico web |
+| ★ Network Traffic Basics | Fácil | Captura y análisis de tráfico con herramientas SOC |
+| ★ Nmap | Fácil | Escaneo de red — reconocer reconocimiento del atacante |
+| Windows Basics | Fácil | Navegación y herramientas del sistema Windows |
+| Linux Strength Training | Fácil | Ganar velocidad en CLI Linux para trabajo de incidentes |
+| ★ Linux CLI - Shells Bells | Fácil | CLI avanzado Linux para investigación de incidentes |
+| ★ Bash Scripting | Fácil | Automatizar tareas repetitivas de triage en SOC |
+| ★ CyberChef: The Basics | Fácil | Herramienta imprescindible para decodificar IOCs y payloads |
+| Regular Expressions | Medio | Coincidencia de patrones — se usa en reglas SIEM y parseo de logs |
+| Cryptography Basics | Fácil | Cifrado en práctica — relevante para analizar tráfico malicioso |
+
+---
+
+### Fase 3 — SIEM, análisis de logs, triage de alertas e inteligencia de amenazas
+*Semana 5–8 (Ruta B) · Semana 9–13 (Ruta A) · Núcleo del trabajo diario SOC L1 — la fase más importante*
+
+> Aquí empieza el entrenamiento SOC real para todos. No omitas ninguno de los rooms en negrita.
+
+| Room | Dificultad | Por qué importa |
+|------|-----------|-----------------|
+| **SOC L1 Alert Triage** | Fácil | Metodología sistemática de triage — el proceso exacto del día a día L1 |
+| **SOC L1 Alert Reporting** | Fácil | Cómo escalar y documentar alertas de alto riesgo |
+| **SOC Alert Triaging - Tinsel Triage** | Medio | Triage real de alertas en Microsoft Sentinel |
+| **Intro to Log Analysis** | Fácil | Mejores prácticas de análisis de logs y herramientas esenciales |
+| **Log Analysis with SIEM** | Medio | Detectar comportamiento malicioso usando SIEM |
+| **Splunk Basics - Did you SIEM?** | Medio | Splunk: el SIEM más pedido en ofertas de empleo SOC |
+| Wazuh | Medio | SIEM open-source: reglas de detección, dashboards, gratuito |
+| M365 Monitoring Basics | Medio | Logs de Entra ID y M365 — esenciales en entornos corporativos |
+| Entra ID Monitoring | Medio | Amenazas y detección en entornos Azure AD |
+| XDR: Introduction | Medio | Microsoft Defender XDR — plataforma SOC moderna estándar |
+| Introduction to EDR | Fácil | Fundamentos de EDR y capacidades de detección |
+| **Threat Intelligence for SOC** | Medio | Integrar CTI al pipeline de detección y respuesta |
+| **Pyramid Of Pain** | Fácil | Modelo para priorizar y categorizar IOCs — memoriza este |
+| File and Hash Threat Intel | Fácil | Enriquecer IOCs de archivos y hashes con inteligencia |
+| Shodan.io | Fácil | Búsqueda de activos expuestos para threat hunting |
+| Linux Logging for SOC | Fácil | Fuentes de logs Linux clave para triage SOC |
+| **Windows Threat Detection 1** | Medio | Detectar técnicas de Initial Access en Windows |
+| **Linux Threat Detection 1** | Medio | Detectar ataques a Linux leyendo logs del sistema |
+
+> 💡 Los **rooms en negrita** son máxima prioridad — hazlos antes que cualquier otro en esta fase.
+
+---
+
+### Fase 4 — Malware, phishing y respuesta a incidentes
+*Semana 9–12 (Ruta B) · Semana 14–17 (Ruta A) · Responde a los incidentes más frecuentes en SOC*
+
+| Room | Dificultad | Por qué importa |
+|------|-----------|-----------------|
+| **Malware Classification** | Fácil | Identificar y clasificar tipos comunes de malware |
+| History of Malware | Info | Cómo evolucionó el malware — contexto para entender amenazas modernas |
+| **Phishing - Phishmas Greetings** | Medio | Phishing es el vector #1 de alertas en SOC — aprende a detectarlo |
+| **C2 Detection - Command & Carol** | Medio | Detectar C2 en PCAPs grandes — habilidad que separa L1 de L2 |
+| **Incident Response Process** | Medio | Ciclo de vida NIST IR en workstation comprometida |
+| Malware Analysis - Malhare.exe | Fácil | Análisis de malware y forense básico |
+| Malware Analysis - Egg-xecutable | Medio | Herramientas de sandbox para análisis real de malware |
+| APIWizards Breach | Medio | Investigar una brecha real de principio a fin |
+| Linux Incident Surface | Fácil | Huellas del atacante y superficies de incidente en Linux |
+| Linux Process Analysis | Fácil | Análisis de procesos para detectar persistencia del atacante |
+| Linux Server Forensics | Medio | Artefactos forenses en servidores Linux comprometidos |
+| Intro to Cold System Forensics | Fácil | Forense offline: conceptos y metodología DFIR |
+
+---
+
+### Fase 5 — Vulnerabilidades web, CVEs y detección avanzada
+*Semana 13–16 (Ruta B) · Semana 18–22 (Ruta A) · Conoce lo que los atacantes explotan*
+
+| Room | Dificultad | Por qué importa |
+|------|-----------|-----------------|
+| Web Security Essentials | Fácil | Riesgos comunes en apps web — todo analista SOC necesita esto |
+| Broken Access Control | Fácil | OWASP #1 — falla más frecuente en alertas web |
+| OWASP Top 10 2025: IAAA Failures | Fácil | A01, A07, A09 del OWASP Top 10 actualizado |
+| XSS - Merry XSSMas | Fácil | XSS: tipos, detección y prevención |
+| SSRF | Medio | Ataques internos desde apps web — impacto crítico |
+| SSTI | Medio | Inyección en templates de servidor — vector común |
+| TryHack3M: Sch3Ma D3Mon | Medio | SQL Injection — aprenderla para detectarla en logs |
+| YARA Rules | Medio | Detección de anomalías con reglas YARA |
+| Threat Hunting With YARA | Medio | Threat hunting activo con YARA en SOC |
+| Follina MSDT (CVE-2022-30190) | Medio | CVE crítico de Windows con detección y remediación incluidas |
+| Outlook NTLM Leak (CVE-2023-23397) | Fácil | Robo de hashes vía email — muy explotado en entornos con AD |
+| CVE-2022-26923 (AD Cert Services) | Fácil | Explotación de Active Directory Certificate Services |
+| Next.js CVE-2025-29927 | Fácil | Bypass de autorización en frameworks modernos |
+| Confluence CVE-2023-22515 | Fácil | Admin bypass en Confluence — ataque corporativo común |
+| APT28 Inception Theory | Medio | TTPs de un threat actor real — perspectiva CTI avanzada |
+| AppSec IR | Medio | Intersección entre AppSec y respuesta a incidentes |
+| Chaining Vulnerabilities | Fácil | Cómo escalan los ataques — visión kill chain completa |
+
+---
+
+### Fase 6 — Cloud, entornos modernos y especialización
+*Semana 17+ (Ruta B) · Semana 23+ (Ruta A) · SOC en la nube*
+
+| Room | Dificultad | Por qué importa |
+|------|-----------|-----------------|
+| AWS Basic Concepts | Fácil | Base obligatoria para entornos cloud AWS |
+| AWS IAM Initial Access | Medio | Cómo atacan IAM — crucial para alertas cloud |
+| STS Credentials Lab | Medio | Credenciales temporales y escalación de privilegios en AWS |
+| AWS S3 - Attack and Defense | Medio | Ataques a S3: misconfiguraciones frecuentes en alertas |
+| AWS API Gateway | Medio | Seguridad y ataques comunes al API Gateway |
+| AWS Lambda | Medio | Aspectos de seguridad del servicio serverless de AWS |
+| Amazon EC2 - Attack & Defense | Medio | Comprometer y defender instancias EC2 |
+| Lambda - Data Exfiltration | Medio | Exfiltración vía serverless — vector creciente |
+| Intro to Containerisation | Fácil | Tecnología de contenedores — entender el entorno |
+| Insekube | Fácil | Explotación de Kubernetes vía LFI en Grafana |
+| K8s Best Security Practices | Medio | Mejores prácticas de seguridad en Kubernetes |
+| AI/ML Security Threats | Fácil | Amenazas de IA que el SOC moderno ya enfrenta |
+| AI in Security | Fácil | Uso de IA como herramienta defensiva en SOC |
+| Nessus | Fácil | Escáner de vulnerabilidades: interpretar y priorizar hallazgos |
+
+---
+
+## 🎯 Forense avanzado (habilidades SOC L2)
+*Opcional — hazlos junto a la Fase 4 o después para escalar hacia L2*
+
+| Room | Dificultad | Por qué importa |
+|------|-----------|-----------------|
+| Volatility Essentials | Medio | Forense de memoria — skill core DFIR, muy valorado en L2 |
+| KAPE | Medio | Recolección y procesamiento de artefactos forenses |
+| Critical | Fácil | Análisis de volcado de memoria en escenario práctico |
+| MBR and GPT Analysis | Medio | Forense del proceso de arranque — detectar bootkits |
+| macOS Forensics: The Basics | Fácil | Forense en macOS: preparación y metodología |
+| macOS Forensics: Artefacts | Difícil | Análisis avanzado de artefactos forenses en macOS |
+| Mobile Acquisition | Fácil | Adquisición forense de dispositivos móviles |
+| Legal Considerations in DFIR | Medio | Marco legal para el manejo de evidencia digital |
+| FAT32 Analysis | Difícil | Sistema de archivos FAT32 desde perspectiva forense |
+
+---
+
+## 💡 Consejos para conseguir tu primer empleo SOC
+
+1. **Documenta todo.** Cada lab que hagas, tómale capturas y súbelo a GitHub. Los reclutadores revisan tus repos.
+2. **Arma un home lab.** Wazuh SIEM es gratuito y open source. Un SIEM funcionando en tu lab vale más que 10 certificaciones en el CV.
+3. **Aprende el vocabulario.** Antes de entrevistas, asegúrate de poder explicar: IOC, TTP, kill chain, MITRE ATT&CK, falso positivo, escalación, triage.
+4. **Usa MITRE ATT&CK.** Cuando completes un room con una técnica de ataque, búscala en el framework ATT&CK. Construye reconocimiento de patrones rápidamente.
+5. **Postula temprano (Ruta B).** Las Fases 1–3 completadas + un home lab es suficiente para empezar a entrevistar para roles L1.
+6. **Postula cuando estés listo (Ruta A).** Termina al menos las Fases 0–3 antes de aplicar. Usa LetsDefend y CyberDefenders para practicar escenarios reales antes de entrevistas.
+
+---
+
+## 📚 Recursos gratuitos complementarios
+
+| Recurso | Mejor para |
+|---------|-----------|
+| [MITRE ATT&CK Framework](https://attack.mitre.org/) | Tácticas y técnicas de adversarios — referencia constante |
+| [CyberDefenders](https://cyberdefenders.org/) | Labs Blue Team gratuitos tipo CTF — excelente para práctica |
+| [Blue Team Labs Online](https://blueteamlabs.online/) | Práctica de escenarios SOC |
+| [LetsDefend](https://letsdefend.io/) | Simulación SOC (tier gratuito) — lo más parecido al trabajo real |
+| [Cisco Networking Academy](https://www.netacad.com/) | Cursos gratuitos — CyberOps Associate es excelente |
+| [SANS Poster Collection](https://www.sans.org/posters/) | Cheat sheets de referencia gratuitos |
+| [Professor Messer](https://www.professormesser.com/) | Material gratuito CompTIA Security+ — bueno para Ruta A |
+
+---
+
+## 🤝 Contribuciones
+
+¿Encontraste un room que debería estar en la lista? ¿Crees que algún room debería estar en una fase diferente? ¿Tienes sugerencias para recursos de la Ruta A?
+
+- Abre un issue describiendo el room y dónde crees que encaja
+- Envía un PR con tu sugerencia y una justificación breve
+- Toda sugerencia es bienvenida — especialmente de personas que trabajan actualmente en SOC o que recientemente consiguieron su primer empleo SOC
+
+---
+
+## 👤 Acerca de este proyecto
+
+Este roadmap fue construido cruzando 4 listas de rooms gratuitos de TryHackMe (tags: All, Purple, Red, Blue) y aplicando un marco de progresión de habilidades SOC real — priorizando lo que un analista L1 realmente hace el primer día de trabajo, no solo lo que suena impresionante en papel.
+
+La estructura de dos rutas existe porque la comunidad de ciberseguridad es diversa: algunas personas vienen de infraestructura TI, helpdesk o redes, mientras otras hacen un cambio de carrera completo desde campos no relacionados. Ambos grupos merecen un camino claro y honesto — no consejos de talla única.
+
+El objetivo es simple: darle a cualquier persona un camino claro, sin rodeos y 100% gratuito hacia su primer rol SOC.
+
+Si esto te ayudó, considera darle una estrella al repo ⭐ para que otros puedan encontrarlo.
+
+---
+
 # 🛡️ SOC Analyst Roadmap — TryHackMe (Free Rooms Only)
 
 > **A curated, priority-ordered list of free TryHackMe rooms for anyone building toward their first SOC Analyst role.**
@@ -300,292 +590,6 @@ If this helped you, consider starring the repo ⭐ so others can find it.
 ---
 ---
 
-# 🛡️ Roadmap Analista SOC — TryHackMe (Solo Rooms Gratuitos)
 
-> **Lista curada y ordenada por prioridad de rooms gratuitos de TryHackMe para quienes buscan su primer empleo como Analista SOC.**
-> Construida a partir de 4 listas de rooms gratuitos (tags: All, Purple, Red, Blue) y organizada según la progresión real de habilidades SOC.
->
-> Este roadmap sirve para **dos tipos de personas** — elige tu ruta abajo.
-
----
-
-## 🧭 Elige tu punto de partida
-
-### 🟢 Ruta A — "Soy nuevo en TI / No tengo background técnico"
-
-Nunca has trabajado en TI, estás estudiando por tu cuenta, o vienes de un campo completamente diferente. No hay problema — este roadmap te cubre. Solo necesitarás dedicar más tiempo a las fases fundacionales antes de entrar al contenido específico de SOC.
-
-**Tu camino:** Pre-Security (Learning Path THM) → Fase 0 → Fase 1 → Fase 2 → Fase 3 → ...
-
-**Antes de empezar este roadmap, completa estas rutas de aprendizaje gratuitas de TryHackMe:**
-- [Pre-Security](https://tryhackme.com/path/outline/presecurity) — Cómo funciona la web, redes básicas, fundamentos de Linux y Windows (100% gratuito, ~40 horas)
-- [Introduction to Cybersecurity](https://tryhackme.com/path/outline/introtocybersecurity) — Qué es la ciberseguridad, carreras, primeros labs prácticos (~24 horas)
-
-Una vez termines esas rutas, vuelve aquí y **empieza en la Fase 0** de este roadmap.
-
-**Tiempo total estimado:** 22–28 semanas de estudio enfocado (incluyendo el contenido pre-seguridad)
-
----
-
-### 🔵 Ruta B — "Ya trabajo o he trabajado en TI"
-
-Has sido sysadmin, técnico de redes, helpdesk, desarrollador, o tienes cualquier experiencia práctica en TI. Ya entiendes redes, sistemas operativos y línea de comandos. No necesitas empezar desde cero.
-
-**Tu camino:** Omite o revisa rápido la Fase 0 y la Fase 2 → Empieza en la Fase 1 → Acelera hacia la Fase 3
-
-**Rooms que puedes omitir o repasar muy rápido:**
-- Conceptos de redes / modelo OSI
-- Fundamentos de Linux y Windows
-- DNS / HTTP en detalle
-- What is Networking?
-- Bash Scripting básico
-- Inside a Computer System / Operating Systems Introduction
-
-**Salta directamente a la Fase 3** (SIEM, análisis de logs, triage de alertas) después de un repaso rápido por la Fase 1. Ahí empieza el aprendizaje real específico de SOC.
-
-**Tiempo total estimado:** 10–17 semanas de estudio enfocado
-
----
-
-## 📊 Resumen
-
-| Dato | Valor |
-|------|-------|
-| Rooms totales | 80+ |
-| Costo | 100% Gratuito |
-| Fases | 6 + Fase 0 |
-| Rol objetivo | Analista SOC L1 → L2 |
-| Tiempo estimado (Ruta A) | 22–28 semanas |
-| Tiempo estimado (Ruta B) | 10–17 semanas |
-
----
-
-## 🗺️ El Roadmap
-
----
-
-### ⬜ Fase 0 — Fundamentos absolutos *(Solo Ruta A)*
-*Para personas sin background en TI · haz esto antes que cualquier otra cosa*
-
-> **Usuarios Ruta B:** Puedes saltarte esta fase por completo. Si quieres repasar algún concepto específico, adelante — pero no pierdas tiempo aquí si ya lo dominas.
-
-| Room | Dificultad | Por qué importa |
-|------|-----------|-----------------|
-| Inside a Computer System | Fácil | Cómo funciona una computadora — CPU, RAM, almacenamiento |
-| Computer Types | Fácil | Servidores, desktops, sistemas embebidos |
-| Operating Systems: Introduction | Fácil | Qué hace un sistema operativo y por qué importa en seguridad |
-| What is Networking? | Info | Cómo se comunican las computadoras entre sí |
-| How Websites Work | Fácil | Qué pasa cuando abres un navegador |
-| Putting it all together | Fácil | Cómo funciona la web de extremo a extremo |
-| The CIA Triad | Fácil | Los 3 principios core de la ciberseguridad |
-| Security Awareness | Info | Actores de amenaza y por qué importa la seguridad |
-| Cryptography for Dummies | Fácil | Bases de cifrado — lo verás en todas partes en SOC |
-| Search Skills | Fácil | Cómo investigar efectivamente como profesional de seguridad |
-| Linux Fundamentals Part 1 | Info | Comandos Linux esenciales — los usarás todos los días |
-| Windows Fundamentals 1 y 2 | Info | Windows por dentro — la mayoría de entornos corporativos usan Windows |
-| Introductory Networking | Fácil | Herramientas de red: ping, traceroute, análisis básico |
-| Introductory Researching | Fácil | Habilidades de investigación para incidentes de seguridad |
-
----
-
-### Fase 1 — Rol SOC y fundamentos de seguridad
-*Semana 1–2 (Ruta B) · Después de la Fase 0 (Ruta A) · Entiende el rol antes que las herramientas*
-
-| Room | Dificultad | Por qué importa |
-|------|-----------|-----------------|
-| SOC Fundamentals | Fácil | Estructura del equipo SOC, procesos — leer primero |
-| SOC Role in Blue Team | Fácil | Niveles L1/L2/L3, carrera y expectativas del rol |
-| Starting Out In Cyber Sec | Fácil | Rutas de carrera y crecimiento en ciberseguridad |
-| Security Principles | Fácil | CIA Triad, modelos de seguridad — base de toda decisión |
-| Vulnerabilities 101 | Fácil | CVEs, CVSS, bases de datos de vulnerabilidades |
-| IR Philosophy and Ethics | Fácil | Filosofía y ética de la respuesta a incidentes |
-| Training Impact on Teams | Info | Cómo encaja la formación en seguridad dentro de las organizaciones |
-
----
-
-### Fase 2 — Redes, sistemas operativos y herramientas base
-*Semana 3–4 (Ruta B) · Cubierto en Fase 0 para Ruta A — solo refuerza lo que necesites*
-
-> **Usuarios Ruta A:** Ya cubriste la mayoría de esto en la Fase 0 y el Pre-Security. Enfócate en los rooms marcados con ★ que van más profundo que lo básico.
->
-> **Usuarios Ruta B:** Repasa lo que ya sabes, dedica tiempo a lo nuevo. Los rooms con ★ vale hacerlos sin importar tu experiencia previa.
-
-| Room | Dificultad | Por qué importa |
-|------|-----------|-----------------|
-| Networking Concepts | Fácil | Modelo OSI/TCP-IP en detalle |
-| DNS in Detail | Fácil | DNS: vector de ataque y artefacto forense clave |
-| HTTP in Detail | Fácil | Protocolo HTTP — base para análisis de tráfico web |
-| ★ Network Traffic Basics | Fácil | Captura y análisis de tráfico con herramientas SOC |
-| ★ Nmap | Fácil | Escaneo de red — reconocer reconocimiento del atacante |
-| Windows Basics | Fácil | Navegación y herramientas del sistema Windows |
-| Linux Strength Training | Fácil | Ganar velocidad en CLI Linux para trabajo de incidentes |
-| ★ Linux CLI - Shells Bells | Fácil | CLI avanzado Linux para investigación de incidentes |
-| ★ Bash Scripting | Fácil | Automatizar tareas repetitivas de triage en SOC |
-| ★ CyberChef: The Basics | Fácil | Herramienta imprescindible para decodificar IOCs y payloads |
-| Regular Expressions | Medio | Coincidencia de patrones — se usa en reglas SIEM y parseo de logs |
-| Cryptography Basics | Fácil | Cifrado en práctica — relevante para analizar tráfico malicioso |
-
----
-
-### Fase 3 — SIEM, análisis de logs, triage de alertas e inteligencia de amenazas
-*Semana 5–8 (Ruta B) · Semana 9–13 (Ruta A) · Núcleo del trabajo diario SOC L1 — la fase más importante*
-
-> Aquí empieza el entrenamiento SOC real para todos. No omitas ninguno de los rooms en negrita.
-
-| Room | Dificultad | Por qué importa |
-|------|-----------|-----------------|
-| **SOC L1 Alert Triage** | Fácil | Metodología sistemática de triage — el proceso exacto del día a día L1 |
-| **SOC L1 Alert Reporting** | Fácil | Cómo escalar y documentar alertas de alto riesgo |
-| **SOC Alert Triaging - Tinsel Triage** | Medio | Triage real de alertas en Microsoft Sentinel |
-| **Intro to Log Analysis** | Fácil | Mejores prácticas de análisis de logs y herramientas esenciales |
-| **Log Analysis with SIEM** | Medio | Detectar comportamiento malicioso usando SIEM |
-| **Splunk Basics - Did you SIEM?** | Medio | Splunk: el SIEM más pedido en ofertas de empleo SOC |
-| Wazuh | Medio | SIEM open-source: reglas de detección, dashboards, gratuito |
-| M365 Monitoring Basics | Medio | Logs de Entra ID y M365 — esenciales en entornos corporativos |
-| Entra ID Monitoring | Medio | Amenazas y detección en entornos Azure AD |
-| XDR: Introduction | Medio | Microsoft Defender XDR — plataforma SOC moderna estándar |
-| Introduction to EDR | Fácil | Fundamentos de EDR y capacidades de detección |
-| **Threat Intelligence for SOC** | Medio | Integrar CTI al pipeline de detección y respuesta |
-| **Pyramid Of Pain** | Fácil | Modelo para priorizar y categorizar IOCs — memoriza este |
-| File and Hash Threat Intel | Fácil | Enriquecer IOCs de archivos y hashes con inteligencia |
-| Shodan.io | Fácil | Búsqueda de activos expuestos para threat hunting |
-| Linux Logging for SOC | Fácil | Fuentes de logs Linux clave para triage SOC |
-| **Windows Threat Detection 1** | Medio | Detectar técnicas de Initial Access en Windows |
-| **Linux Threat Detection 1** | Medio | Detectar ataques a Linux leyendo logs del sistema |
-
-> 💡 Los **rooms en negrita** son máxima prioridad — hazlos antes que cualquier otro en esta fase.
-
----
-
-### Fase 4 — Malware, phishing y respuesta a incidentes
-*Semana 9–12 (Ruta B) · Semana 14–17 (Ruta A) · Responde a los incidentes más frecuentes en SOC*
-
-| Room | Dificultad | Por qué importa |
-|------|-----------|-----------------|
-| **Malware Classification** | Fácil | Identificar y clasificar tipos comunes de malware |
-| History of Malware | Info | Cómo evolucionó el malware — contexto para entender amenazas modernas |
-| **Phishing - Phishmas Greetings** | Medio | Phishing es el vector #1 de alertas en SOC — aprende a detectarlo |
-| **C2 Detection - Command & Carol** | Medio | Detectar C2 en PCAPs grandes — habilidad que separa L1 de L2 |
-| **Incident Response Process** | Medio | Ciclo de vida NIST IR en workstation comprometida |
-| Malware Analysis - Malhare.exe | Fácil | Análisis de malware y forense básico |
-| Malware Analysis - Egg-xecutable | Medio | Herramientas de sandbox para análisis real de malware |
-| APIWizards Breach | Medio | Investigar una brecha real de principio a fin |
-| Linux Incident Surface | Fácil | Huellas del atacante y superficies de incidente en Linux |
-| Linux Process Analysis | Fácil | Análisis de procesos para detectar persistencia del atacante |
-| Linux Server Forensics | Medio | Artefactos forenses en servidores Linux comprometidos |
-| Intro to Cold System Forensics | Fácil | Forense offline: conceptos y metodología DFIR |
-
----
-
-### Fase 5 — Vulnerabilidades web, CVEs y detección avanzada
-*Semana 13–16 (Ruta B) · Semana 18–22 (Ruta A) · Conoce lo que los atacantes explotan*
-
-| Room | Dificultad | Por qué importa |
-|------|-----------|-----------------|
-| Web Security Essentials | Fácil | Riesgos comunes en apps web — todo analista SOC necesita esto |
-| Broken Access Control | Fácil | OWASP #1 — falla más frecuente en alertas web |
-| OWASP Top 10 2025: IAAA Failures | Fácil | A01, A07, A09 del OWASP Top 10 actualizado |
-| XSS - Merry XSSMas | Fácil | XSS: tipos, detección y prevención |
-| SSRF | Medio | Ataques internos desde apps web — impacto crítico |
-| SSTI | Medio | Inyección en templates de servidor — vector común |
-| TryHack3M: Sch3Ma D3Mon | Medio | SQL Injection — aprenderla para detectarla en logs |
-| YARA Rules | Medio | Detección de anomalías con reglas YARA |
-| Threat Hunting With YARA | Medio | Threat hunting activo con YARA en SOC |
-| Follina MSDT (CVE-2022-30190) | Medio | CVE crítico de Windows con detección y remediación incluidas |
-| Outlook NTLM Leak (CVE-2023-23397) | Fácil | Robo de hashes vía email — muy explotado en entornos con AD |
-| CVE-2022-26923 (AD Cert Services) | Fácil | Explotación de Active Directory Certificate Services |
-| Next.js CVE-2025-29927 | Fácil | Bypass de autorización en frameworks modernos |
-| Confluence CVE-2023-22515 | Fácil | Admin bypass en Confluence — ataque corporativo común |
-| APT28 Inception Theory | Medio | TTPs de un threat actor real — perspectiva CTI avanzada |
-| AppSec IR | Medio | Intersección entre AppSec y respuesta a incidentes |
-| Chaining Vulnerabilities | Fácil | Cómo escalan los ataques — visión kill chain completa |
-
----
-
-### Fase 6 — Cloud, entornos modernos y especialización
-*Semana 17+ (Ruta B) · Semana 23+ (Ruta A) · SOC en la nube*
-
-| Room | Dificultad | Por qué importa |
-|------|-----------|-----------------|
-| AWS Basic Concepts | Fácil | Base obligatoria para entornos cloud AWS |
-| AWS IAM Initial Access | Medio | Cómo atacan IAM — crucial para alertas cloud |
-| STS Credentials Lab | Medio | Credenciales temporales y escalación de privilegios en AWS |
-| AWS S3 - Attack and Defense | Medio | Ataques a S3: misconfiguraciones frecuentes en alertas |
-| AWS API Gateway | Medio | Seguridad y ataques comunes al API Gateway |
-| AWS Lambda | Medio | Aspectos de seguridad del servicio serverless de AWS |
-| Amazon EC2 - Attack & Defense | Medio | Comprometer y defender instancias EC2 |
-| Lambda - Data Exfiltration | Medio | Exfiltración vía serverless — vector creciente |
-| Intro to Containerisation | Fácil | Tecnología de contenedores — entender el entorno |
-| Insekube | Fácil | Explotación de Kubernetes vía LFI en Grafana |
-| K8s Best Security Practices | Medio | Mejores prácticas de seguridad en Kubernetes |
-| AI/ML Security Threats | Fácil | Amenazas de IA que el SOC moderno ya enfrenta |
-| AI in Security | Fácil | Uso de IA como herramienta defensiva en SOC |
-| Nessus | Fácil | Escáner de vulnerabilidades: interpretar y priorizar hallazgos |
-
----
-
-## 🎯 Forense avanzado (habilidades SOC L2)
-*Opcional — hazlos junto a la Fase 4 o después para escalar hacia L2*
-
-| Room | Dificultad | Por qué importa |
-|------|-----------|-----------------|
-| Volatility Essentials | Medio | Forense de memoria — skill core DFIR, muy valorado en L2 |
-| KAPE | Medio | Recolección y procesamiento de artefactos forenses |
-| Critical | Fácil | Análisis de volcado de memoria en escenario práctico |
-| MBR and GPT Analysis | Medio | Forense del proceso de arranque — detectar bootkits |
-| macOS Forensics: The Basics | Fácil | Forense en macOS: preparación y metodología |
-| macOS Forensics: Artefacts | Difícil | Análisis avanzado de artefactos forenses en macOS |
-| Mobile Acquisition | Fácil | Adquisición forense de dispositivos móviles |
-| Legal Considerations in DFIR | Medio | Marco legal para el manejo de evidencia digital |
-| FAT32 Analysis | Difícil | Sistema de archivos FAT32 desde perspectiva forense |
-
----
-
-## 💡 Consejos para conseguir tu primer empleo SOC
-
-1. **Documenta todo.** Cada lab que hagas, tómale capturas y súbelo a GitHub. Los reclutadores revisan tus repos.
-2. **Arma un home lab.** Wazuh SIEM es gratuito y open source. Un SIEM funcionando en tu lab vale más que 10 certificaciones en el CV.
-3. **Aprende el vocabulario.** Antes de entrevistas, asegúrate de poder explicar: IOC, TTP, kill chain, MITRE ATT&CK, falso positivo, escalación, triage.
-4. **Usa MITRE ATT&CK.** Cuando completes un room con una técnica de ataque, búscala en el framework ATT&CK. Construye reconocimiento de patrones rápidamente.
-5. **Postula temprano (Ruta B).** Las Fases 1–3 completadas + un home lab es suficiente para empezar a entrevistar para roles L1.
-6. **Postula cuando estés listo (Ruta A).** Termina al menos las Fases 0–3 antes de aplicar. Usa LetsDefend y CyberDefenders para practicar escenarios reales antes de entrevistas.
-
----
-
-## 📚 Recursos gratuitos complementarios
-
-| Recurso | Mejor para |
-|---------|-----------|
-| [MITRE ATT&CK Framework](https://attack.mitre.org/) | Tácticas y técnicas de adversarios — referencia constante |
-| [CyberDefenders](https://cyberdefenders.org/) | Labs Blue Team gratuitos tipo CTF — excelente para práctica |
-| [Blue Team Labs Online](https://blueteamlabs.online/) | Práctica de escenarios SOC |
-| [LetsDefend](https://letsdefend.io/) | Simulación SOC (tier gratuito) — lo más parecido al trabajo real |
-| [Cisco Networking Academy](https://www.netacad.com/) | Cursos gratuitos — CyberOps Associate es excelente |
-| [SANS Poster Collection](https://www.sans.org/posters/) | Cheat sheets de referencia gratuitos |
-| [Professor Messer](https://www.professormesser.com/) | Material gratuito CompTIA Security+ — bueno para Ruta A |
-
----
-
-## 🤝 Contribuciones
-
-¿Encontraste un room que debería estar en la lista? ¿Crees que algún room debería estar en una fase diferente? ¿Tienes sugerencias para recursos de la Ruta A?
-
-- Abre un issue describiendo el room y dónde crees que encaja
-- Envía un PR con tu sugerencia y una justificación breve
-- Toda sugerencia es bienvenida — especialmente de personas que trabajan actualmente en SOC o que recientemente consiguieron su primer empleo SOC
-
----
-
-## 👤 Acerca de este proyecto
-
-Este roadmap fue construido cruzando 4 listas de rooms gratuitos de TryHackMe (tags: All, Purple, Red, Blue) y aplicando un marco de progresión de habilidades SOC real — priorizando lo que un analista L1 realmente hace el primer día de trabajo, no solo lo que suena impresionante en papel.
-
-La estructura de dos rutas existe porque la comunidad de ciberseguridad es diversa: algunas personas vienen de infraestructura TI, helpdesk o redes, mientras otras hacen un cambio de carrera completo desde campos no relacionados. Ambos grupos merecen un camino claro y honesto — no consejos de talla única.
-
-El objetivo es simple: darle a cualquier persona un camino claro, sin rodeos y 100% gratuito hacia su primer rol SOC.
-
-Si esto te ayudó, considera darle una estrella al repo ⭐ para que otros puedan encontrarlo.
-
----
 
 *Made with 💙 for the LATAM cybersecurity community*
